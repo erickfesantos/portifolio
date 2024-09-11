@@ -284,7 +284,7 @@ section.portfolio .flex {
     margin-top: 60px;
 }
 
-.img-port {
+.img-port1,.img-port2,.img-port3 {
     width: 360px;
     height: 460px;
     background-size: cover;
@@ -293,7 +293,16 @@ section.portfolio .flex {
     cursor: pointer;
     border-radius: 40px;
     position: relative;
+    
+}
+.img-port1{
     background-image: url(./images/01LP.png);
+}
+.img-port2{
+    background-image: url(./images/02AG.png);
+}
+.img-port3{
+    background-image: url(./images/03TL.png);
 }
 
 .img-port:hover {
@@ -403,6 +412,12 @@ footer .line-footer p a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.p-project{
+    color: #fff;
+    width: 40%;
+    text-align: center;
 }
 
 @media screen and (max-width: 1020px) {
