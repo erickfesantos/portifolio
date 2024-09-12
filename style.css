@@ -284,7 +284,7 @@ section.portfolio .flex {
     margin-top: 60px;
 }
 
-.img-port1,.img-port2,.img-port3 {
+.img-port1,.img-port2,.img-port3,.img-port4,.img-port5,.img-port6 {
     width: 360px;
     height: 460px;
     background-size: cover;
@@ -295,6 +295,12 @@ section.portfolio .flex {
     position: relative;
     
 }
+
+a { 
+    color: inherit;
+    text-decoration:none;  
+} 
+
 .img-port1{
     background-image: url(./images/01LP.png);
 }
@@ -303,6 +309,15 @@ section.portfolio .flex {
 }
 .img-port3{
     background-image: url(./images/03TL.png);
+}
+.img-port4{
+    background-image: url(./images/04JM.png);
+}
+.img-port5{
+    background-image: url(./images/05MC.png);
+}
+.img-port6{
+    background-image: url(./images/06LG.png);
 }
 
 .img-port:hover {
@@ -315,7 +330,7 @@ section.portfolio .flex {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000b8;
+    background-color: #000000cf;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -325,6 +340,7 @@ section.portfolio .flex {
     color: #fff;
     opacity: 0;
     transition: .5s;
+    text-align: center;
 }
 
 .overlay:hover {
@@ -407,11 +423,15 @@ footer .line-footer p a {
 
 .tell-me{
     color: #fff;
-    height: 25vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.tell-me p{
+    margin-bottom: 6px;
 }
 
 .p-project{
